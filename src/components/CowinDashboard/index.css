@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.fail {
+  height: 500px;
+  width: 500px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cowin-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.cowin-container {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  background-color: #161625;
+}
+.block {
+  border-radius: 12px;
+}
+.website-name {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.website-logo-container {
+  display: flex;
+}
+.website-logo {
+  height: 60px;
+  width: 60px;
+
+  margin-right: 10px;
+}
